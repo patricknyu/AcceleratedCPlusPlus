@@ -1,1 +1,3 @@
-0-0. Compile and run the Hello, world! program.
+0-0
+
+Compile and run the Hello, world! program.
