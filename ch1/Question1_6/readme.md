@@ -1,0 +1,17 @@
+#1-6
+What does the following program do if, when it asks you for input, you type two names (for example, Samuel Beckett)? Predict the behavior before running the program, then try it.
+
+	#include <iostream> #include <string>
+	int main()
+	{
+		std::cout << "What is your name? ";
+		std::string name;
+		std::cin >> name;
+		std::cout << "Hello, " << name<< std::endl << "And what is yours? ";
+		std::cin >> name;
+		std::cout << "Hello, " << name
+		<< "; nice to meet you too!" << std::endl;
+		return 0; 
+	}
+
+First it outputs "What is your name? ".  If you put in Samule Beckett, then it will ste name to Samuel and keep Beckett in the buffer.  Then it returns "Hello, Samuel".  Then it says "And what is yours?".  The buffer still has a word so we don't even get to put in a word.  It outputs "Hello, Samuel; nice to meet you too!"

@@ -2,4 +2,6 @@
 
 1.1 Input
 
-1.2 Framing a name 1.3 Details
+1.2 Framing a name
+
+1.3 Details
